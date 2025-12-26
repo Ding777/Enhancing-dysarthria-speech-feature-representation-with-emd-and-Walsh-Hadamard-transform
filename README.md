@@ -1,6 +1,15 @@
 # Enhancing-dysarthria-speech-feature-representation-with-emd-and-Walsh-Hadamard-transform
 Speech recognition Speech signal processing 
 
+Abstract: Dysarthria speech contains the pathological characteristics of vocal tract and vocal fold, but so far, they have not yet been
+included in traditional acoustic feature sets. Moreover, the nonlinearity and non-stationarity of speech have been ignored. In this
+paper, we propose a feature enhancement algorithm for dysarthria speech called WHFEMD. It combines empirical mode decomposition (EMD) and fast Walsh-Hadamard transform (FWHT) to enhance features. With the proposed algorithm, the fast Fourier transform of the dysarthria speech is first performed and then followed by EMD to get intrinsic mode functions (IMFs). After that, FWHT
+is used to output new coefficients and to extract statistical features based on IMFs, power spectral density, and enhanced gammatone frequency cepstral coefficients. To evaluate the proposed approach, we conducted experiments on two public pathological
+speech databases including UA Speech and TORGO. The results show that our algorithm performed better than traditional features
+in classification. We achieved improvements of 13.8% (UA Speech) and 3.84% (TORGO), respectively. Furthermore, the incorporation
+of an imbalanced classification algorithm to address data imbalance has resulted in a 12.18% increase in recognition accuracy. This
+algorithm effectively addresses the challenges of the imbalanced dataset and non-linearity in dysarthric speech and simultaneously
+provides a robust representation of the local pathological features of the vocal folds and tracts.
 
 # WHFEMD Pipeline (modular project)
 
