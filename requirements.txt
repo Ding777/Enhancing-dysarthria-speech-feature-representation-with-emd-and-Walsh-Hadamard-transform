@@ -1,0 +1,10 @@
+numpy>=1.21
+pandas
+scipy
+scikit-learn>=1.0
+soundfile
+# optional (recommended):
+PyEMD
+librosa
+gammatone
+imbalanced-learn
